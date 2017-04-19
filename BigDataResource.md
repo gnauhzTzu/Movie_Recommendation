@@ -23,3 +23,19 @@ Submit pig job
 ************************
 (MapReduce Patterns) Counting and Summing, Collating, Filtering, Parsing, Sorting, Graph Processing, Cross-Correlation, Union, Join
 https://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/
+
+
+
+
+************************
+Recommendation System
+
+Recsys 2014 Tutorial - The Recommender Problem Revisited
+https://www.slideshare.net/xamat/recsys-2014-tutorial-the-recommender-problem-revisited
+
+pros and cons of 
+* Collaborative Filtering
+* Content-based Filtering
+* Hybrid Approaches
+* Popularity
+https://buildingrecommenders.wordpress.com/2015/11/16/overview-of-recommender-algorithms-part-1/
