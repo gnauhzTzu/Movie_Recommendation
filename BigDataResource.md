@@ -24,6 +24,9 @@ Submit pig job
 (MapReduce Patterns) Counting and Summing, Collating, Filtering, Parsing, Sorting, Graph Processing, Cross-Correlation, Union, Join
 https://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/
 
+The Big-Data Ecosystem Table, including popular big data related tools and projects
+http://bigdata.andreamostosi.name/
+
 
 
 
