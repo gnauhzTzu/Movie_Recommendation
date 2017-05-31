@@ -37,3 +37,24 @@ jps
 # submit job
 ./bin/spark-submit --master spark://localhost.localdomain:7077 --class WordCount  XXX/XXX/XXX.jar
 ```
+
+
+11. To start spark with jupyter, run the following in a terminal
+```shell
+PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS="notebook --ip=0.0.0.0 --port=8081 --no-browser" pyspark 
+# in order to connnect with mysql db
+PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS="notebook --ip=0.0.0.0 --port=8081 --no-browser" pyspark --packages mysql:mysql-connector-java:5.1.38
+# or better 
+PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS="notebook --ip=0.0.0.0 --port=8081 --no-browser" pyspark --jars mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar --driver-class-path mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar
+
+```
+
+12. To submit jobs with jdbc, run
+```shell
+spark-submit --jars mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar foo.py
+```
+
+
+
+
+
