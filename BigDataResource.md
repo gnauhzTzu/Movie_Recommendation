@@ -18,7 +18,8 @@ Submit pig job
 	* `hadoop job –status <jobid>` (will print the job status)
 * To get the results: `hadoop fs –get /path/results.txt`
 
-
+What happened to HDFS and Yarn when one of the nodes failed?
+http://blog.cloudera.com/blog/2015/02/understanding-hdfs-recovery-processes-part-1/
 
 ************************
 (MapReduce Patterns) Counting and Summing, Collating, Filtering, Parsing, Sorting, Graph Processing, Cross-Correlation, Union, Join
